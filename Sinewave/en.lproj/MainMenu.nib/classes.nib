@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = Sinewave; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {run = id; setAmp = id; setFreq = id; setPan = id; stop = id; }; 
+            CLASS = SinewaveController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                ampControl = id; 
+                ampField = id; 
+                freqControl = id; 
+                freqField = id; 
+                oscillator = id; 
+                panControl = id; 
+                panField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

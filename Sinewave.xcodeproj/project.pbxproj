@@ -7,28 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4202C8AF262B2C2B000A634F /* SinewaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4202C8AA262B2C2B000A634F /* SinewaveController.m */; };
+		4202C8BE262B627E000A634F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4202C8BD262B627E000A634F /* CoreAudio.framework */; };
+		4202C8BF262B6339000A634F /* Sinewave.m in Sources */ = {isa = PBXBuildFile; fileRef = 4202C8A9262B2C2B000A634F /* Sinewave.m */; };
 		42C973FF262B2B4A0037448E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C973FE262B2B4A0037448E /* Cocoa.framework */; };
 		42C97409262B2B4A0037448E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42C97407262B2B4A0037448E /* InfoPlist.strings */; };
 		42C9740B262B2B4A0037448E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C9740A262B2B4A0037448E /* main.m */; };
 		42C9740F262B2B4A0037448E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 42C9740D262B2B4A0037448E /* Credits.rtf */; };
-		42C97412262B2B4A0037448E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C97411262B2B4A0037448E /* AppDelegate.m */; };
-		42C97415262B2B4B0037448E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42C97413262B2B4B0037448E /* MainMenu.xib */; };
+		42C97415262B2B4B0037448E /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 42C97413262B2B4B0037448E /* MainMenu.nib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4202C8A8262B2C2B000A634F /* Sinewave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sinewave.h; sourceTree = "<group>"; };
+		4202C8A9262B2C2B000A634F /* Sinewave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sinewave.m; sourceTree = "<group>"; };
+		4202C8AA262B2C2B000A634F /* SinewaveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinewaveController.m; sourceTree = "<group>"; };
+		4202C8AB262B2C2B000A634F /* SinewaveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinewaveController.h; sourceTree = "<group>"; };
+		4202C8AC262B2C2B000A634F /* HAL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HAL.c; sourceTree = "<group>"; };
+		4202C8AD262B2C2B000A634F /* HAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAL.h; sourceTree = "<group>"; };
+		4202C8BD262B627E000A634F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		42C973FA262B2B4A0037448E /* Sinewave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sinewave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C973FE262B2B4A0037448E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		42C97401262B2B4A0037448E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		42C97402262B2B4A0037448E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		42C97403262B2B4A0037448E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		42C97406262B2B4A0037448E /* Sinewave-Info.plist */ = {isa = PBXFileReference; path = "Sinewave-Info.plist"; sourceTree = "<group>"; };
+		42C97406262B2B4A0037448E /* Sinewave-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sinewave-Info.plist"; sourceTree = "<group>"; };
 		42C97408262B2B4A0037448E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42C9740A262B2B4A0037448E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42C9740C262B2B4A0037448E /* Sinewave-Prefix.pch */ = {isa = PBXFileReference; path = "Sinewave-Prefix.pch"; sourceTree = "<group>"; };
+		42C9740C262B2B4A0037448E /* Sinewave-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sinewave-Prefix.pch"; sourceTree = "<group>"; };
 		42C9740E262B2B4A0037448E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		42C97410262B2B4A0037448E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		42C97411262B2B4A0037448E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42C97414262B2B4B0037448E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		42C97414262B2B4B0037448E /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/MainMenu.nib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4202C8BE262B627E000A634F /* CoreAudio.framework in Frameworks */,
 				42C973FF262B2B4A0037448E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +70,7 @@
 		42C973FD262B2B4A0037448E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4202C8BD262B627E000A634F /* CoreAudio.framework */,
 				42C973FE262B2B4A0037448E /* Cocoa.framework */,
 				42C97400262B2B4A0037448E /* Other Frameworks */,
 			);
@@ -73,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				42C97401262B2B4A0037448E /* AppKit.framework */,
-				42C97402262B2B4A0037448E /* CoreData.framework */,
 				42C97403262B2B4A0037448E /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -82,9 +89,13 @@
 		42C97404262B2B4A0037448E /* Sinewave */ = {
 			isa = PBXGroup;
 			children = (
-				42C97410262B2B4A0037448E /* AppDelegate.h */,
-				42C97411262B2B4A0037448E /* AppDelegate.m */,
-				42C97413262B2B4B0037448E /* MainMenu.xib */,
+				4202C8A8262B2C2B000A634F /* Sinewave.h */,
+				4202C8A9262B2C2B000A634F /* Sinewave.m */,
+				4202C8AA262B2C2B000A634F /* SinewaveController.m */,
+				4202C8AB262B2C2B000A634F /* SinewaveController.h */,
+				4202C8AC262B2C2B000A634F /* HAL.c */,
+				4202C8AD262B2C2B000A634F /* HAL.h */,
+				42C97413262B2B4B0037448E /* MainMenu.nib */,
 				42C97405262B2B4A0037448E /* Supporting Files */,
 			);
 			path = Sinewave;
@@ -154,7 +165,7 @@
 			files = (
 				42C97409262B2B4A0037448E /* InfoPlist.strings in Resources */,
 				42C9740F262B2B4A0037448E /* Credits.rtf in Resources */,
-				42C97415262B2B4B0037448E /* MainMenu.xib in Resources */,
+				42C97415262B2B4B0037448E /* MainMenu.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C9740B262B2B4A0037448E /* main.m in Sources */,
-				42C97412262B2B4A0037448E /* AppDelegate.m in Sources */,
+				4202C8AF262B2C2B000A634F /* SinewaveController.m in Sources */,
+				4202C8BF262B6339000A634F /* Sinewave.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,12 +201,12 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		42C97413262B2B4B0037448E /* MainMenu.xib */ = {
+		42C97413262B2B4B0037448E /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				42C97414262B2B4B0037448E /* en */,
 			);
-			name = MainMenu.xib;
+			name = MainMenu.nib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -204,7 +216,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -215,7 +227,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -230,12 +242,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -286,6 +298,7 @@
 				42C9741A262B2B4B0037448E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
