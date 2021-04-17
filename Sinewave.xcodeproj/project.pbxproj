@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42C973FF262B2B4A0037448E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C973FE262B2B4A0037448E /* Cocoa.framework */; };
+		42C97409262B2B4A0037448E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42C97407262B2B4A0037448E /* InfoPlist.strings */; };
+		42C9740B262B2B4A0037448E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C9740A262B2B4A0037448E /* main.m */; };
+		42C9740F262B2B4A0037448E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 42C9740D262B2B4A0037448E /* Credits.rtf */; };
+		42C97412262B2B4A0037448E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C97411262B2B4A0037448E /* AppDelegate.m */; };
+		42C97415262B2B4B0037448E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42C97413262B2B4B0037448E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42C973FA262B2B4A0037448E /* Sinewave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sinewave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C973FE262B2B4A0037448E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		42C97401262B2B4A0037448E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		42C97402262B2B4A0037448E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		42C97403262B2B4A0037448E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42C97406262B2B4A0037448E /* Sinewave-Info.plist */ = {isa = PBXFileReference; path = "Sinewave-Info.plist"; sourceTree = "<group>"; };
+		42C97408262B2B4A0037448E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42C9740A262B2B4A0037448E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42C9740C262B2B4A0037448E /* Sinewave-Prefix.pch */ = {isa = PBXFileReference; path = "Sinewave-Prefix.pch"; sourceTree = "<group>"; };
+		42C9740E262B2B4A0037448E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		42C97410262B2B4A0037448E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42C97411262B2B4A0037448E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42C97414262B2B4B0037448E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42C973F7262B2B4A0037448E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C973FF262B2B4A0037448E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C973EF262B2B4A0037448E = {
+			isa = PBXGroup;
+			children = (
+				42C97404262B2B4A0037448E /* Sinewave */,
+				42C973FD262B2B4A0037448E /* Frameworks */,
+				42C973FB262B2B4A0037448E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42C973FB262B2B4A0037448E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42C973FA262B2B4A0037448E /* Sinewave.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42C973FD262B2B4A0037448E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C973FE262B2B4A0037448E /* Cocoa.framework */,
+				42C97400262B2B4A0037448E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42C97400262B2B4A0037448E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C97401262B2B4A0037448E /* AppKit.framework */,
+				42C97402262B2B4A0037448E /* CoreData.framework */,
+				42C97403262B2B4A0037448E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		42C97404262B2B4A0037448E /* Sinewave */ = {
+			isa = PBXGroup;
+			children = (
+				42C97410262B2B4A0037448E /* AppDelegate.h */,
+				42C97411262B2B4A0037448E /* AppDelegate.m */,
+				42C97413262B2B4B0037448E /* MainMenu.xib */,
+				42C97405262B2B4A0037448E /* Supporting Files */,
+			);
+			path = Sinewave;
+			sourceTree = "<group>";
+		};
+		42C97405262B2B4A0037448E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42C97406262B2B4A0037448E /* Sinewave-Info.plist */,
+				42C97407262B2B4A0037448E /* InfoPlist.strings */,
+				42C9740A262B2B4A0037448E /* main.m */,
+				42C9740C262B2B4A0037448E /* Sinewave-Prefix.pch */,
+				42C9740D262B2B4A0037448E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42C973F9262B2B4A0037448E /* Sinewave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C97418262B2B4B0037448E /* Build configuration list for PBXNativeTarget "Sinewave" */;
+			buildPhases = (
+				42C973F6262B2B4A0037448E /* Sources */,
+				42C973F7262B2B4A0037448E /* Frameworks */,
+				42C973F8262B2B4A0037448E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sinewave;
+			productName = Sinewave;
+			productReference = 42C973FA262B2B4A0037448E /* Sinewave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42C973F1262B2B4A0037448E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 42C973F4262B2B4A0037448E /* Build configuration list for PBXProject "Sinewave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42C973EF262B2B4A0037448E;
+			productRefGroup = 42C973FB262B2B4A0037448E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42C973F9262B2B4A0037448E /* Sinewave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42C973F8262B2B4A0037448E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C97409262B2B4A0037448E /* InfoPlist.strings in Resources */,
+				42C9740F262B2B4A0037448E /* Credits.rtf in Resources */,
+				42C97415262B2B4B0037448E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42C973F6262B2B4A0037448E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C9740B262B2B4A0037448E /* main.m in Sources */,
+				42C97412262B2B4A0037448E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42C97407262B2B4A0037448E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C97408262B2B4A0037448E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42C9740D262B2B4A0037448E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C9740E262B2B4A0037448E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		42C97413262B2B4B0037448E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C97414262B2B4B0037448E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42C97416262B2B4B0037448E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		42C97417262B2B4B0037448E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		42C97419262B2B4B0037448E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sinewave/Sinewave-Prefix.pch";
+				INFOPLIST_FILE = "Sinewave/Sinewave-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42C9741A262B2B4B0037448E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sinewave/Sinewave-Prefix.pch";
+				INFOPLIST_FILE = "Sinewave/Sinewave-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42C973F4262B2B4A0037448E /* Build configuration list for PBXProject "Sinewave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C97416262B2B4B0037448E /* Debug */,
+				42C97417262B2B4B0037448E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C97418262B2B4B0037448E /* Build configuration list for PBXNativeTarget "Sinewave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C97419262B2B4B0037448E /* Debug */,
+				42C9741A262B2B4B0037448E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42C973F1262B2B4A0037448E /* Project object */;
+}
