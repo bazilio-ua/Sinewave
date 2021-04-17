@@ -7,17 +7,12 @@
 
 #import "Sinewave.h"
 
-// define a C struct from the Obj-C object so audio callback can access data
-typedef struct {
-    @defs(Sinewave);
-} sinewavedef;
-
 // this is the audio processing callback.
 OSStatus appIOProc (AudioDeviceID  inDevice, const AudioTimeStamp*  inNow, const AudioBufferList*   inInputData, 
                              const AudioTimeStamp*  inInputTime, AudioBufferList*  outOutputData, const AudioTimeStamp* inOutputTime, 
                              void* defptr)
 {    
-    sinewavedef*	def = defptr; // get access to Sinewave's data
+    Sinewave *def = defptr; // get access to Sinewave's data
     int i;
     
     // load instance vars into registers
@@ -133,7 +128,6 @@ OSStatus appIOProc (AudioDeviceID  inDevice, const AudioTimeStamp*  inNow, const
 - (BOOL)start
 {
     OSStatus		err = kAudioHardwareNoError;
-   sinewavedef *def;
 
     if (!initialized) return false;
     if (soundPlaying) return false;
@@ -144,9 +138,7 @@ OSStatus appIOProc (AudioDeviceID  inDevice, const AudioTimeStamp*  inNow, const
     ampz = amp;
     panz = pan;
 
-    def = (sinewavedef *)self;
-    
-    err = AudioDeviceAddIOProc(device, appIOProc, (void *) def);	// setup our device with an IO proc
+    err = AudioDeviceAddIOProc(device, appIOProc, (void *) self);	// setup our device with an IO proc
     if (err != kAudioHardwareNoError) return false;
     
     err = AudioDeviceStart(device, appIOProc);				// start playing sound through the device

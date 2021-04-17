@@ -10,6 +10,7 @@
 
 @interface Sinewave : NSObject
 {
+    @public
         double freq, pan, amp;		// controls
         double freqz, panz, ampz;	// for dezipper filter
         double phase;			// oscillator phase in radians
